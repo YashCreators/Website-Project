@@ -31,8 +31,8 @@ function animationSlides(){
             reverse : false
         })
         .setTween(slideTl)
-        .addIndicators({colorStart : 'white' ,
-         colorTrigger : 'white' , name: 'slide'})
+        // .addIndicators({colorStart : 'white' ,
+        //  colorTrigger : 'white' , name: 'slide'})
         .addTo(controller);
         //new  animation
         const pageTl = gsap.timeline();
@@ -50,8 +50,8 @@ function animationSlides(){
         })
         .setPin(slide , {pushFollowers : false})
         .setTween(pageTl)
-        .addIndicators({colorStart : 'white' ,
-         colorTrigger : 'white' , name: 'page' , indent : 200})
+        // .addIndicators({colorStart : 'white' ,
+        //  colorTrigger : 'white' , name: 'page' , indent : 200})
         .addTo(controller);
     });
 }
@@ -194,7 +194,7 @@ function detailAnimation(){
         })
         .setPin(slide , {pushFollowers : false})
         .setTween(slideTl)
-        .addIndicators({colorStart : 'white' , colorTrigger : 'white' , name : 'detailscene'})
+        // .addIndicators({colorStart : 'white' , colorTrigger : 'white' , name : 'detailscene'})
         .addTo(controller);
     });
 }
